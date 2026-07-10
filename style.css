@@ -1,0 +1,2099 @@
+/* =====================================================
+   Gypsophila Product Catalog
+   Apple Style Premium UI
+   Main Style Sheet
+===================================================== */
+
+
+
+/* =========================
+   CSS Variables
+========================= */
+
+
+:root {
+
+
+    /* Brand Color */
+
+    --primary:
+    #3FAE6A;
+
+
+    --primary-light:
+    #72D69A;
+
+
+    --primary-dark:
+    #258047;
+
+
+
+    /* Background */
+
+    --bg:
+    #F8FBF8;
+
+
+    --surface:
+    rgba(255,255,255,0.72);
+
+
+
+    /* Text */
+
+    --text:
+    #1D1D1F;
+
+
+    --text-secondary:
+    #6E6E73;
+
+
+
+    /* Border */
+
+    --border:
+    rgba(0,0,0,0.08);
+
+
+
+    /* Shadow */
+
+    --shadow:
+    0 20px 60px rgba(0,0,0,.08);
+
+
+
+    --shadow-hover:
+    0 35px 90px rgba(0,0,0,.15);
+
+
+
+    /* Radius */
+
+    --radius-large:
+    32px;
+
+
+    --radius-medium:
+    20px;
+
+
+
+    /* Animation */
+
+    --transition:
+    .35s cubic-bezier(.4,0,.2,1);
+
+
+}
+
+
+
+
+
+/* =========================
+   Dark Mode Variables
+========================= */
+
+
+body.dark {
+
+
+    --bg:
+    #111111;
+
+
+    --surface:
+    rgba(30,30,30,.75);
+
+
+    --text:
+    #FFFFFF;
+
+
+    --text-secondary:
+    #A1A1A6;
+
+
+    --border:
+    rgba(255,255,255,.12);
+
+
+
+    --shadow:
+    0 20px 60px rgba(0,0,0,.4);
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Reset
+========================= */
+
+
+* {
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+
+html {
+
+
+    scroll-behavior:smooth;
+
+
+}
+
+
+
+body {
+
+
+    font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+
+
+    background:
+    var(--bg);
+
+
+    color:
+    var(--text);
+
+
+    overflow-x:hidden;
+
+
+    transition:
+    background var(--transition),
+    color var(--transition);
+
+
+}
+
+
+
+
+
+img {
+
+
+    max-width:100%;
+
+    display:block;
+
+
+}
+
+
+
+button {
+
+
+    font-family:inherit;
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Page Loader
+========================= */
+
+
+.page-loader {
+
+
+    position:fixed;
+
+
+    inset:0;
+
+
+    background:
+    var(--bg);
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    z-index:9999;
+
+
+    animation:
+    loaderHide 1s ease forwards;
+
+
+    animation-delay:
+    .8s;
+
+
+}
+
+
+
+.loader-logo {
+
+
+    font-size:40px;
+
+
+    font-weight:700;
+
+
+    letter-spacing:-1px;
+
+
+    color:
+    var(--primary);
+
+
+    animation:
+    logoPulse 1.2s infinite;
+
+
+}
+
+
+
+@keyframes logoPulse {
+
+
+    0%{
+
+        opacity:.4;
+
+        transform:scale(.95);
+
+    }
+
+
+    50%{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+
+    100%{
+
+        opacity:.4;
+
+        transform:scale(.95);
+
+    }
+
+
+}
+
+
+
+
+
+@keyframes loaderHide {
+
+
+    to{
+
+        opacity:0;
+
+        visibility:hidden;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Header
+========================= */
+
+
+.header {
+
+
+    position:fixed;
+
+
+    top:0;
+
+
+    left:0;
+
+
+    width:100%;
+
+
+    height:80px;
+
+
+    padding:
+    0 6%;
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+    z-index:100;
+
+
+    backdrop-filter:
+    blur(20px);
+
+
+    background:
+    rgba(255,255,255,.45);
+
+
+    border-bottom:
+    1px solid var(--border);
+
+
+    transition:
+    .3s;
+
+
+}
+
+
+
+body.dark .header {
+
+
+    background:
+    rgba(20,20,20,.5);
+
+
+}
+
+
+
+
+
+.logo {
+
+
+    font-size:26px;
+
+
+    font-weight:700;
+
+
+    letter-spacing:-1px;
+
+
+    color:
+    var(--text);
+
+
+}
+
+
+
+
+
+.header-actions {
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+
+.theme-toggle {
+
+
+    width:46px;
+
+
+    height:46px;
+
+
+    border-radius:50%;
+
+
+    border:1px solid var(--border);
+
+
+    background:
+    var(--surface);
+
+
+    cursor:pointer;
+
+
+    font-size:20px;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    transition:
+    var(--transition);
+
+
+}
+
+
+
+.theme-toggle:hover {
+
+
+    transform:
+    rotate(20deg)
+    scale(1.08);
+
+
+}
+
+
+
+
+
+
+.sun {
+
+
+    display:block;
+
+}
+
+
+
+.moon {
+
+
+    display:none;
+
+
+}
+
+
+body.dark .sun {
+
+
+    display:none;
+
+
+}
+
+
+body.dark .moon {
+
+
+    display:block;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Hero Section
+========================= */
+
+
+.hero {
+
+
+    min-height:100vh;
+
+
+    position:relative;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    text-align:center;
+
+
+    padding:
+    120px 20px 80px;
+
+
+    overflow:hidden;
+
+
+}
+
+
+
+
+
+
+.hero-content {
+
+
+    position:relative;
+
+
+    z-index:2;
+
+
+    max-width:900px;
+
+
+}
+
+
+
+
+
+.hero-tag {
+
+
+    display:inline-flex;
+
+
+    padding:
+    8px 18px;
+
+
+    border-radius:50px;
+
+
+    background:
+    rgba(63,174,106,.12);
+
+
+    color:
+    var(--primary);
+
+
+    font-size:14px;
+
+
+    font-weight:600;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+
+.hero h1 {
+
+
+    font-size:
+    clamp(42px,6vw,76px);
+
+
+    line-height:
+    1.05;
+
+
+    letter-spacing:
+    -3px;
+
+
+    font-weight:
+    800;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+.hero p {
+
+
+    max-width:650px;
+
+
+    margin:
+    0 auto 40px;
+
+
+    font-size:20px;
+
+
+    line-height:1.6;
+
+
+    color:
+    var(--text-secondary);
+
+
+}
+
+
+
+
+
+
+.hero-button {
+
+
+    border:none;
+
+
+    background:
+    linear-gradient(
+    135deg,
+    var(--primary-light),
+    var(--primary)
+    );
+
+
+    color:white;
+
+
+    padding:
+    16px 34px;
+
+
+    border-radius:50px;
+
+
+    font-size:17px;
+
+
+    font-weight:600;
+
+
+    cursor:pointer;
+
+
+    box-shadow:
+    0 15px 35px rgba(63,174,106,.3);
+
+
+    transition:
+    var(--transition);
+
+
+}
+
+
+
+.hero-button:hover {
+
+
+    transform:
+    translateY(-5px);
+
+
+    box-shadow:
+    0 25px 50px rgba(63,174,106,.4);
+
+
+}
+
+
+
+.hero-button span {
+
+
+    margin-left:8px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Hero Glass Circle
+========================= */
+
+
+.hero-circle {
+
+
+    position:absolute;
+
+
+    border-radius:50%;
+
+
+    filter:
+    blur(80px);
+
+
+    opacity:.35;
+
+
+}
+
+
+
+
+.circle-one {
+
+
+    width:500px;
+
+
+    height:500px;
+
+
+    background:
+    #75E6A0;
+
+
+    top:-120px;
+
+
+    left:-120px;
+
+
+}
+
+
+
+.circle-two {
+
+
+    width:450px;
+
+
+    height:450px;
+
+
+    background:
+    #B8F5CE;
+
+
+    right:-100px;
+
+
+    bottom:-120px;
+
+
+}
+
+/* =====================================================
+   Products Section
+===================================================== */
+
+
+.products-section {
+
+
+    padding:
+    100px 6%;
+
+
+    position:relative;
+
+
+}
+
+
+
+
+.section-header {
+
+
+    text-align:center;
+
+
+    max-width:700px;
+
+
+    margin:
+    0 auto 70px;
+
+
+}
+
+
+
+.section-header span {
+
+
+    color:
+    var(--primary);
+
+
+    font-size:15px;
+
+
+    font-weight:600;
+
+
+    text-transform:uppercase;
+
+
+    letter-spacing:2px;
+
+
+}
+
+
+
+.section-header h2 {
+
+
+    font-size:
+    clamp(36px,5vw,56px);
+
+
+    margin:
+    18px 0;
+
+
+    letter-spacing:-2px;
+
+
+}
+
+
+
+.section-header p {
+
+
+    color:
+    var(--text-secondary);
+
+
+    font-size:18px;
+
+
+}
+
+
+
+.section-header strong {
+
+
+    color:
+    var(--primary);
+
+
+}
+
+
+
+
+
+
+/* =========================
+   Product Grid
+========================= */
+
+
+.products-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+
+    gap:
+    35px;
+
+
+    max-width:1400px;
+
+
+    margin:auto;
+
+
+}
+
+
+
+
+
+
+/* =========================
+   Product Card
+========================= */
+
+
+.product-card {
+
+
+    position:relative;
+
+
+    background:
+    var(--surface);
+
+
+    border:
+    1px solid var(--border);
+
+
+    border-radius:
+    var(--radius-large);
+
+
+    padding:
+    22px;
+
+
+    backdrop-filter:
+    blur(20px);
+
+
+    box-shadow:
+    var(--shadow);
+
+
+    overflow:hidden;
+
+
+    transition:
+    var(--transition);
+
+
+    opacity:0;
+
+
+    transform:
+    translateY(40px);
+
+
+}
+
+
+
+.product-card.show {
+
+
+    opacity:1;
+
+
+    transform:
+    translateY(0);
+
+
+}
+
+
+
+
+
+.product-card:hover {
+
+
+    transform:
+    translateY(-12px);
+
+
+    box-shadow:
+    var(--shadow-hover);
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Product Image
+========================= */
+
+
+.product-image-box {
+
+
+    position:relative;
+
+
+    overflow:hidden;
+
+
+    border-radius:
+    25px;
+
+
+    cursor:pointer;
+
+
+    background:
+    rgba(0,0,0,.03);
+
+
+}
+
+
+
+
+.product-image-box img {
+
+
+    width:100%;
+
+
+    aspect-ratio:
+    1 / 1;
+
+
+    object-fit:contain;
+
+
+    transition:
+    transform .6s cubic-bezier(.2,.8,.2,1);
+
+
+}
+
+
+
+.product-card:hover 
+.product-image-box img {
+
+
+    transform:
+    scale(1.08);
+
+
+}
+
+
+
+
+
+
+/* =========================
+   Product Tag
+========================= */
+
+
+.product-tag {
+
+
+    position:absolute;
+
+
+    top:20px;
+
+
+    left:20px;
+
+
+    background:
+    var(--primary);
+
+
+    color:white;
+
+
+    padding:
+    7px 16px;
+
+
+    border-radius:
+    50px;
+
+
+    font-size:12px;
+
+
+    font-weight:700;
+
+
+    letter-spacing:.5px;
+
+
+    z-index:2;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Product Content
+========================= */
+
+
+.product-content {
+
+
+    padding:
+    25px 5px 10px;
+
+
+}
+
+
+
+.product-title {
+
+
+    font-size:24px;
+
+
+    line-height:1.3;
+
+
+    font-weight:700;
+
+
+    letter-spacing:-.5px;
+
+
+    margin-bottom:12px;
+
+
+}
+
+
+
+
+.product-description {
+
+
+    color:
+    var(--text-secondary);
+
+
+    font-size:15px;
+
+
+    line-height:1.6;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+.product-price {
+
+
+    font-size:32px;
+
+
+    color:
+    var(--primary);
+
+
+    font-weight:800;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Product Features
+========================= */
+
+
+.product-features {
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:10px;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.product-features span {
+
+
+    font-size:14px;
+
+
+    color:
+    var(--text-secondary);
+
+
+}
+
+
+
+
+.product-features span::before {
+
+
+    content:"✓";
+
+
+    color:
+    var(--primary);
+
+
+    font-weight:bold;
+
+
+    margin-right:10px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Buttons
+========================= */
+
+
+.product-actions {
+
+
+    display:flex;
+
+
+    gap:12px;
+
+
+}
+
+
+
+
+.amazon-btn {
+
+
+    flex:1;
+
+
+    text-decoration:none;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    gap:8px;
+
+
+    background:
+    linear-gradient(
+    135deg,
+    var(--primary-light),
+    var(--primary)
+    );
+
+
+    color:white;
+
+
+    padding:
+    14px;
+
+
+    border-radius:
+    16px;
+
+
+    font-weight:600;
+
+
+    transition:
+    var(--transition);
+
+
+}
+
+
+
+.amazon-btn:hover {
+
+
+    transform:
+    translateY(-3px);
+
+
+    box-shadow:
+    0 15px 30px rgba(63,174,106,.3);
+
+
+}
+
+
+
+
+
+.copy-btn {
+
+
+    width:55px;
+
+
+    border-radius:16px;
+
+
+    border:
+    1px solid var(--border);
+
+
+    background:
+    transparent;
+
+
+    cursor:pointer;
+
+
+    color:
+    var(--text);
+
+
+    font-size:18px;
+
+
+    transition:
+    var(--transition);
+
+
+}
+
+
+
+.copy-btn:hover {
+
+
+    background:
+    var(--primary);
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Image Modal
+========================= */
+
+
+.image-modal {
+
+
+    position:fixed;
+
+
+    inset:0;
+
+
+    z-index:999;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    opacity:0;
+
+
+    visibility:hidden;
+
+
+    transition:
+    .35s;
+
+
+}
+
+
+
+.image-modal.active {
+
+
+    opacity:1;
+
+
+    visibility:visible;
+
+
+}
+
+
+
+.modal-overlay {
+
+
+    position:absolute;
+
+
+    inset:0;
+
+
+    background:
+    rgba(0,0,0,.75);
+
+
+    backdrop-filter:
+    blur(10px);
+
+
+}
+
+
+
+.image-modal img {
+
+
+    position:relative;
+
+
+    z-index:2;
+
+
+    max-width:
+    80%;
+
+
+    max-height:
+    80%;
+
+
+    border-radius:
+    30px;
+
+
+    transform:
+    scale(.8);
+
+
+    transition:
+    .35s;
+
+
+}
+
+
+
+.image-modal.active img {
+
+
+    transform:
+    scale(1);
+
+
+}
+
+
+
+
+
+.modal-close {
+
+
+    position:absolute;
+
+
+    top:40px;
+
+
+    right:50px;
+
+
+    z-index:3;
+
+
+    width:55px;
+
+
+    height:55px;
+
+
+    border-radius:50%;
+
+
+    border:none;
+
+
+    font-size:35px;
+
+
+    cursor:pointer;
+
+
+    background:white;
+
+
+    color:#111;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Toast
+========================= */
+
+
+.toast {
+
+
+    position:fixed;
+
+
+    bottom:40px;
+
+
+    left:50%;
+
+
+    transform:
+    translateX(-50%)
+    translateY(100px);
+
+
+    background:
+    #111;
+
+
+    color:white;
+
+
+    padding:
+    15px 25px;
+
+
+    border-radius:
+    50px;
+
+
+    display:flex;
+
+
+    gap:10px;
+
+
+    align-items:center;
+
+
+    opacity:0;
+
+
+    transition:
+    .35s;
+
+
+    z-index:1000;
+
+
+}
+
+
+
+.toast.active {
+
+
+    opacity:1;
+
+
+    transform:
+    translateX(-50%)
+    translateY(0);
+
+
+}
+
+
+
+
+
+.toast span {
+
+
+    color:
+    #67e08d;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Back Top Button
+========================= */
+
+
+.back-top {
+
+
+    position:fixed;
+
+
+    right:35px;
+
+
+    bottom:35px;
+
+
+    width:55px;
+
+
+    height:55px;
+
+
+    border-radius:50%;
+
+
+    border:none;
+
+
+    background:
+    var(--primary);
+
+
+    color:white;
+
+
+    font-size:24px;
+
+
+    cursor:pointer;
+
+
+    opacity:0;
+
+
+    visibility:hidden;
+
+
+    transform:
+    translateY(20px);
+
+
+    transition:
+    var(--transition);
+
+
+    z-index:100;
+
+
+}
+
+
+
+.back-top.show {
+
+
+    opacity:1;
+
+
+    visibility:visible;
+
+
+    transform:
+    translateY(0);
+
+
+}
+
+
+
+.back-top:hover {
+
+
+    transform:
+    translateY(-5px);
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Footer
+========================= */
+
+
+.footer {
+
+
+    padding:
+    60px 20px;
+
+
+    text-align:center;
+
+
+    border-top:
+    1px solid var(--border);
+
+
+}
+
+
+
+.footer-logo {
+
+
+    font-size:30px;
+
+
+    font-weight:700;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.footer p {
+
+
+    color:
+    var(--text-secondary);
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.footer span {
+
+
+    font-size:14px;
+
+
+    color:
+    var(--text-secondary);
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   Responsive
+========================= */
+
+
+
+@media(max-width:1100px){
+
+
+.products-grid{
+
+
+grid-template-columns:
+repeat(2,1fr);
+
+
+}
+
+
+}
+
+
+
+
+
+@media(max-width:700px){
+
+
+
+.header {
+
+
+height:70px;
+
+
+padding:
+0 20px;
+
+
+}
+
+
+
+
+.logo {
+
+
+font-size:22px;
+
+
+}
+
+
+
+
+
+.hero {
+
+
+padding-top:100px;
+
+
+}
+
+
+
+
+
+.hero h1 {
+
+
+letter-spacing:-1.5px;
+
+
+}
+
+
+
+
+
+.hero p {
+
+
+font-size:17px;
+
+
+}
+
+
+
+
+
+.products-section {
+
+
+padding:
+70px 20px;
+
+
+}
+
+
+
+
+.products-grid {
+
+
+grid-template-columns:
+1fr;
+
+
+gap:25px;
+
+
+}
+
+
+
+.product-card {
+
+
+border-radius:25px;
+
+
+}
+
+
+
+
+.product-title {
+
+
+font-size:22px;
+
+
+}
+
+
+
+
+.product-actions {
+
+
+flex-direction:row;
+
+
+}
+
+
+
+
+.image-modal img {
+
+
+max-width:
+90%;
+
+
+}
+
+
+
+.modal-close {
+
+
+right:20px;
+
+
+top:20px;
+
+
+}
+
+
+
+.back-top {
+
+
+right:20px;
+
+
+bottom:20px;
+
+
+}
+
+
+}

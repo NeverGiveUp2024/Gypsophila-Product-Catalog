@@ -18,7 +18,7 @@ const products = [
       
           tag: "NEW",
       
-          price: "€14.87",
+          price: "$16.99",
       
           description:
           "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
@@ -42,7 +42,7 @@ const products = [
       
           tag: "NEW",
       
-          price: "€14.87",
+          price: "$17.98",
       
           description:
           "Premium beauty shampoo enriched with natural ingredients for smooth and healthy hair.",
@@ -62,268 +62,273 @@ const products = [
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Shampoo and Conditioner Set",
+        tag: "NEW",
+        price: "$29.69",
 
-        description: "",
+        description: "Nourish, strengthen, and smooth hair with our Batana Oil Shampoo & Conditioner, formulated for all hair types.",
 
         features: [
-            "",
-            "",
-            ""
+            "Anti-Frizz",
+            "Breakage Control",
+            "Strengthening"
         ],
 
         image: "images/product3.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Gypsophila-Batana-Shampoo-Conditioner-Sulfate-Free/dp/B0FNMHGW1W"
     },
 
 
-    {
-        name: "",
-        tag: "",
-        price: "",
+   {
+       name: "Gypsophila 100% Pure Batana Oil + Rosemary Oil",
+   
+       tag: "NEW",
+   
+       price: "$12.99",
+   
+       description:
+       "Batana Oil enriched with Rosemary Oil to nourish hair, support healthy growth and improve scalp care.",
+   
+       features: [
+           "Batana Oil",
+           "Rosemary Oil Infused",
+           "Nourishing Hair Care Formula"
+       ],
+   
+       image:
+       "images/product4.jpg",
+   
+       amazon:
+       "https://www.amazon.com/Batana-Growth-Natural-Nourishes-Eliminates/dp/B0DYXRZLKB/ref=sr_1_3?th=1"
+   },
 
-        description: "",
+
+    {
+        name: "Batana Oil Hair Growth Bundle",
+        tag: "NEW",
+        price: "$26.99",
+
+        description: "The perfect Batana Oil Hair Growth Duo to nourish the scalp, strengthen hair, and promote fuller, healthier-looking hair for all hair types.",
 
         features: [
-            "",
-            "",
-            ""
-        ],
-
-        image: "images/product4.jpg",
-
-        amazon: ""
-    },
-
-
-    {
-        name: "",
-        tag: "",
-        price: "",
-
-        description: "",
-
-        features: [
-            "",
-            "",
-            ""
+            "Helps Nourish Scalp & Hair",
+            "Helps Strengthen & Restore Shine",
+            "Suitable for All Hair Types"
         ],
 
         image: "images/product5.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Bundle-100-Rosemary-Shampoo-Natural-Treatment-Healthier/dp/B0DY7DCC24"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Purifying Exfoliating Gel",
+        tag: "NEW",
+        price: "$7.99",
 
-        description: "",
+        description: "A gentle exfoliating gel that helps remove dead skin and excess oil while leaving skin smoother, refreshed, and hydrated.",
 
         features: [
-            "",
-            "",
-            ""
+            "Gentle Dead Skin Exfoliation",
+            "Pore Cleansing & Hydrating Care",
+            "Suitable for Face & Body"
         ],
 
         image: "images/product6.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Gypsophila-Purifying-Exfoliating-Cleansing-Removes/dp/B0F4KHDT25"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Fragrance Body Wash",
+        tag: "NEW",
+        price: "$15.99",
 
-        description: "",
+        description: "A luxurious fragrance body wash with rich foam and hydrating ingredients to gently cleanse, soften, and leave skin delicately scented.",
 
         features: [
-            "",
-            "",
-            ""
+            "Long-Lasting Elegant Fragrance",
+            "Hydrating Skin Care",
+            "Gentle Rich Foam Cleanse"
         ],
 
         image: "images/product7.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Gypsophila-Fragrance-Moisturizing-Lasting-Phthalate/dp/B0FS5TS717"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Batana Oil Shampoo & Batana Hair Mask",
+        tag: "NEW",
+        price: "$28.99",
 
-        description: "",
+        description: "Complete Batana hair care duo with shampoo and mask to help repair, moisturize, and restore soft, shiny-looking hair.",
 
         features: [
-            "",
-            "",
-            ""
+            "Batana Oil & Rosemary Nourishment",
+            "Hydrating Hair Repair Care",
+            "Sulfate-Free for All Hair Types"
         ],
 
         image: "images/product8.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Gypsophila-Batana-Shampoo-Hair-Mask/dp/B0F9PDMPL1"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Batana Shampoo & Batana Oil & Hair Mask-Combo Set",
+        tag: "NEW",
+        price: " $38.99",
 
-        description: "",
+        description: "Gentle Batana Oil hair care set with natural ingredients to help nourish, hydrate, and repair dry, damaged hair for smoother, healthier-looking hair.",
 
         features: [
-            "",
-            "",
-            ""
+            "Natural Plant-Based Formula",
+            "Deep Nourishing Hair Repair",
+            "Batana Oil & Rosemary Care"
         ],
 
         image: "images/product9.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Batana-Shampoo-Oil-Hair-Mask-Combo/dp/B0F9PJ5N34"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Umex Nail Repair Serum",
+        tag: "NEW",
+        price: "$12.99",
 
-        description: "",
+        description: "Ginger and tea tree nail care serum that helps nourish, strengthen, and improve the appearance of dry, brittle nails and cuticles.",
 
         features: [
-            "",
-            "",
-            ""
+            "Nourishing Nail Care",
+            "Helps Strengthen Brittle Nails",
+            "Ginger & Tea Tree Oil Formula"
         ],
 
         image: "images/product10.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Jonider-Treatment-Cuticle-Ginger-Brittle/dp/B0GX539DLC"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Umex Soothing Massage Gel",
+        
+        price: "$16.99",
 
-        description: "",
+        description: "Plant-based joint and muscle care gel with a lightweight, fast-absorbing formula designed for daily comfort and easy application.",
 
         features: [
-            "",
-            "",
-            ""
+            "Plant-Based Soothing Formula",
+            "Fast-Absorbing & Non-Greasy",
+            "Daily Joint & Muscle Care"
         ],
 
         image: "images/product11.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Jonider-Soothing-Relief-Massage-Soothes/dp/B0F6TLDG13"
     },
 
 
     {
-        name: "",
+        name: "2-Pack Tea Tree Foot Spray",
         tag: "",
-        price: "",
+        price: "$19.99",
 
-        description: "",
+        description: "Tea tree foot spray with a quick-drying formula that helps refresh, moisturize, and maintain comfortable feet for daily and active lifestyles.",
 
         features: [
-            "",
-            "",
-            ""
+            "Tea Tree Oil Fresh Care",
+            "Quick-Drying & Long-Lasting Freshness",
+            "Portable Foot & Shoe Spray"
         ],
 
         image: "images/product12.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/2PCS-Spray-Freshness-Quick-Drying-Travel/dp/B0H3K4BNG8"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Nail Repair Serum",
+        tag: "NEW",
+        price: "$9.99",
 
-        description: "",
+        description: "Ginger nail care serum designed to help nourish, strengthen, and improve the appearance of dry, brittle nails and cuticles with easy daily application.",
 
         features: [
-            "",
-            "",
-            ""
+            "Nourishing Nail Care Formula",
+            "Helps Strengthen Brittle Nails",
+            "Easy Daily Application"
         ],
 
         image: "images/product13.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Treatment-Cuticle-Ginger-Repair-Brittle/dp/B0F29JT4RB"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Umex Soothing Joint Patches",
+        tag: "NEW",
+        price: "$19.99",
 
-        description: "",
+        description: "Natural botanical patches for convenient daily comfort and care.",
 
         features: [
-            "",
-            "",
-            ""
+            "Natural Herbal Formula",
+            "Breathable & Flexible",
+            "Easy Peel & Apply"
         ],
 
         image: "images/product14.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Jonider-Natural-Soothing-Strips-Patches/dp/B0H6SP5M7L"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Umex Natural Soothing Joint Patches (16PCS)",
+        tag: "NEW",
+        price: "$35.99",
 
-        description: "",
+        description: "Natural botanical patches for convenient daily comfort and care.",
 
         features: [
-            "",
-            "",
-            ""
+            "Natural Herbal Formula",
+            "Breathable & Flexible",
+            "Easy Peel & Apply"
         ],
 
         image: "images/product15.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/Jonider-Natural-Soothing-Strips-Patches/dp/B0H6SFMRPZ"
     },
 
 
     {
-        name: "",
-        tag: "",
-        price: "",
+        name: "Cyperus Rotundus Hair Removal Cream",
+        tag: "NEW",
+        price: "$19.99",
 
-        description: "",
+        description: "Gentle hair removal cream that helps remove unwanted hair while leaving skin soft, smooth, and moisturized.",
 
         features: [
-            "",
-            "",
-            ""
+            "Gentle & Painless Hair Removal",
+            "Moisturizing Skin Care",
+            "Multi-Area Use"
         ],
 
         image: "images/product16.jpg",
 
-        amazon: ""
+        amazon: "https://www.amazon.com/AgeVance-Rotundus-Moisturizer-Effective-Underarms/dp/B0GV264BKS"
     }
 
 ];

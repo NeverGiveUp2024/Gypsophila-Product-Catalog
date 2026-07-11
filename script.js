@@ -14,301 +14,307 @@
 const products = [
 
     {
+        name: "",
+        tag: "",
+        price: "",
 
-        name:
-        "Gypsophila Batana Face Mask",
+        description: "",
 
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
+        features: [
+            "",
+            "",
+            ""
         ],
 
+        image: "images/product1.png",
 
-        image:
-        "images/product1.png",
-
-
-        amazon:
-        "https://www.amazon.com/dp/B0DXPMR2T6/ref=sr_1_18_sspa?th=1"
-
-
-    },
-
-    {
-
-        name:
-        "Gypsophila Batana Oil Shampoo",
-
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
-        ],
-
-
-        image:
-        "images/product2.png",
-
-
-        amazon:
-        "hhttps://www.amazon.com/dp/B0DN6TKYF5?th=1"
-
-
-    },
-
-    {
-
-        name:
-        "Gypsophila Batana Face Mask",
-
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
-        ],
-
-
-        image:
-        "images/product1.png",
-
-
-        amazon:
-        "https://www.amazon.com/dp/B0DXPMR2T6/ref=sr_1_18_sspa?th=1"
-
-
-    },
-
-    {
-
-        name:
-        "Gypsophila Batana Oil Shampoo",
-
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
-        ],
-
-
-        image:
-        "images/product2.png",
-
-
-        amazon:
-        "hhttps://www.amazon.com/dp/B0DN6TKYF5?th=1"
-
-
-    },
-
-    {
-
-        name:
-        "Gypsophila Batana Face Mask",
-
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
-        ],
-
-
-        image:
-        "images/product1.png",
-
-
-        amazon:
-        "https://www.amazon.com/dp/B0DXPMR2T6/ref=sr_1_18_sspa?th=1"
-
-
-    },
-
-    {
-
-        name:
-        "Gypsophila Batana Oil Shampoo",
-
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
-        ],
-
-
-        image:
-        "images/product2.png",
-
-
-        amazon:
-        "hhttps://www.amazon.com/dp/B0DN6TKYF5?th=1"
-
-
+        amazon: ""
     },
 
 
     {
+        name: "",
+        tag: "",
+        price: "",
 
-        name:
-        "Gypsophila Batana Face Mask",
+        description: "",
 
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
+        features: [
+            "",
+            "",
+            ""
         ],
 
+        image: "images/product2.png",
 
-        image:
-        "images/product1.png",
-
-
-        amazon:
-        "https://www.amazon.com/dp/B0DXPMR2T6/ref=sr_1_18_sspa?th=1"
-
-
+        amazon: ""
     },
+
 
     {
+        name: "",
+        tag: "",
+        price: "",
 
-        name:
-        "Gypsophila Batana Oil Shampoo",
+        description: "",
 
-        tag:
-        "NEW",
-
-        price:
-        "€14.87",
-
-
-        description:
-        "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
-
-
-        features:[
-
-            "Natural Batana Oil",
-
-            "Deep Nourishing Care",
-
-            "Premium Beauty Formula"
-
+        features: [
+            "",
+            "",
+            ""
         ],
 
+        image: "images/product3.jpg",
 
-        image:
-        "images/product2.png",
-
-
-        amazon:
-        "hhttps://www.amazon.com/dp/B0DN6TKYF5?th=1"
-
-
+        amazon: ""
     },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product4.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product5.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product6.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product7.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product8.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product9.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product10.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product11.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product12.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product13.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product14.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product15.jpg",
+
+        amazon: ""
+    },
+
+
+    {
+        name: "",
+        tag: "",
+        price: "",
+
+        description: "",
+
+        features: [
+            "",
+            "",
+            ""
+        ],
+
+        image: "images/product16.jpg",
+
+        amazon: ""
+    }
 
 ];
 

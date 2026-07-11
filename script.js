@@ -13,42 +13,52 @@
 
 const products = [
 
-    {
-        name: "",
-        tag: "",
-        price: "",
-
-        description: "",
-
-        features: [
-            "",
-            "",
-            ""
-        ],
-
-        image: "images/product1.png",
-
-        amazon: ""
-    },
-
-
-    {
-        name: "",
-        tag: "",
-        price: "",
-
-        description: "",
-
-        features: [
-            "",
-            "",
-            ""
-        ],
-
-        image: "images/product2.png",
-
-        amazon: ""
-    },
+      {
+          name: "Gypsophila Batana Face Mask",
+      
+          tag: "NEW",
+      
+          price: "€14.87",
+      
+          description:
+          "Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
+      
+          features: [
+              "Natural Batana Oil",
+              "Deep Nourishing Care",
+              "Premium Beauty Formula"
+          ],
+      
+          image:
+          "images/product1.png",
+      
+          amazon:
+          "https://www.amazon.com/dp/B0DXPMR2T6/ref=sr_1_18_sspa?th=1"
+      },
+      
+      
+      {
+          name: "Gypsophila Batana Oil Shampoo",
+      
+          tag: "NEW",
+      
+          price: "€14.87",
+      
+          description:
+          "Premium beauty shampoo enriched with natural ingredients for smooth and healthy hair.",
+      
+          features: [
+              "Natural Batana Oil",
+              "Deep Nourishing Care",
+              "Premium Hair Care Formula"
+          ],
+      
+          image:
+          "images/product2.png",
+      
+          amazon:
+          "https://www.amazon.com/dp/B0DN6TKYF5?th=1"
+      },
 
 
     {

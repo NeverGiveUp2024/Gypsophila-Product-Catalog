@@ -220,7 +220,7 @@ const products = [
 
     {
         name: "Umex Soothing Massage Gel",
-        
+        tag: "NEW",
         price: "$16.99",
 
         description: "Plant-based joint and muscle care gel with a lightweight, fast-absorbing formula designed for daily comfort and easy application.",
@@ -239,7 +239,7 @@ const products = [
 
     {
         name: "2-Pack Tea Tree Foot Spray",
-        tag: "",
+        tag: "NEW",
         price: "$19.99",
 
         description: "Tea tree foot spray with a quick-drying formula that helps refresh, moisturize, and maintain comfortable feet for daily and active lifestyles.",

@@ -1,0 +1,664 @@
+[
+{
+"id":1,
+
+"name":{
+"en":"Gypsophila Batana Face Mask",
+"es":"Mascarilla Facial de Batana Gypsophila",
+"ar":"قناع الوجه بزيت الباتانا من جيبسوفيلا"
+},
+
+"tag": null,
+
+"price":"$16.99",
+
+"description":{
+"en":"Premium beauty mask enriched with natural ingredients for smooth and healthy skin.",
+"es":"Mascarilla de belleza premium enriquecida con ingredientes naturales para una piel suave y saludable.",
+"ar":"قناع تجميلي فاخر غني بالمكونات الطبيعية للحصول على بشرة ناعمة وصحية."
+},
+
+"features":{
+
+"en":[
+"Natural Batana Oil",
+"Deep Nourishing Care",
+"Premium Beauty Formula"
+],
+
+"es":[
+"Aceite natural de Batana",
+"Cuidado nutritivo profundo",
+"Fórmula de belleza premium"
+],
+
+"ar":[
+"زيت باتانا طبيعي",
+"عناية مغذية عميقة",
+"تركيبة تجميلية فاخرة"
+]
+
+},
+
+"image":"images/product1.png",
+
+"amazon":"https://www.amazon.com/dp/B0DXPMR2T6/ref=sr_1_18_sspa?th=1"
+
+},
+
+
+
+{
+"id":2,
+
+"name":{
+"en":"Gypsophila Batana Oil Shampoo",
+"es":"Champú de Aceite de Batana Gypsophila",
+"ar":"شامبو زيت الباتانا من جيبسوفيلا"
+},
+
+"tag": null,
+
+"price":"$17.98",
+
+"description":{
+"en":"Premium beauty shampoo enriched with natural ingredients for smooth and healthy hair.",
+"es":"Champú premium enriquecido con ingredientes naturales para un cabello suave y saludable.",
+"ar":"شامبو فاخر غني بالمكونات الطبيعية لشعر ناعم وصحي."
+},
+
+"features":{
+
+"en":[
+"Natural Batana Oil",
+"Deep Nourishing Care",
+"Premium Hair Care Formula"
+],
+
+"es":[
+"Aceite natural de Batana",
+"Cuidado nutritivo profundo",
+"Fórmula premium para el cabello"
+],
+
+"ar":[
+"زيت باتانا طبيعي",
+"عناية مغذية عميقة",
+"تركيبة عناية بالشعر"
+]
+
+},
+
+"image":"images/product2.png",
+
+"amazon":"https://www.amazon.com/dp/B0DN6TKYF5?th=1"
+
+},
+
+
+
+{
+"id":3,
+
+"name":{
+"en":"Shampoo and Conditioner Set",
+"es":"Set de Champú y Acondicionador",
+"ar":"مجموعة الشامبو والبلسم"
+},
+
+"tag": null,
+
+"price":"$29.69",
+
+"description":{
+"en":"Nourish, strengthen, and smooth hair with our Batana Oil Shampoo & Conditioner, formulated for all hair types.",
+"es":"Nutre, fortalece y suaviza el cabello con nuestro champú y acondicionador de aceite de Batana, formulado para todo tipo de cabello.",
+"ar":"غذي وقوي ونعّم شعرك مع شامبو وبلسم زيت الباتانا المناسب لجميع أنواع الشعر."
+},
+
+"features":{
+
+"en":[
+"Anti-Frizz",
+"Breakage Control",
+"Strengthening"
+],
+
+"es":[
+"Control del frizz",
+"Control de rotura",
+"Fortalecimiento"
+],
+
+"ar":[
+"مضاد للتجعد",
+"تقليل تكسر الشعر",
+"تقوية الشعر"
+]
+
+},
+
+"image":"images/product3.jpg",
+
+"amazon":"https://www.amazon.com/Gypsophila-Batana-Shampoo-Conditioner-Sulfate-Free/dp/B0FNMHGW1W"
+
+},
+
+
+
+{
+"id":4,
+
+"name":{
+"en":"Gypsophila 100% Pure Batana Oil + Rosemary Oil",
+"es":"Aceite de Batana 100% Puro + Aceite de Romero Gypsophila",
+"ar":"زيت باتانا نقي 100٪ + زيت إكليل الجبل من جيبسوفيلا"
+},
+
+"tag": null,
+
+"price":"$12.99",
+
+"description":{
+"en":"Batana Oil enriched with Rosemary Oil to nourish hair, support healthy growth and improve scalp care.",
+"es":"Aceite de Batana enriquecido con aceite de romero para nutrir el cabello, apoyar su crecimiento saludable y mejorar el cuidado del cuero cabelludo.",
+"ar":"زيت باتانا غني بزيت إكليل الجبل لتغذية الشعر ودعم نموه الصحي والعناية بفروة الرأس."
+},
+
+"features":{
+
+"en":[
+"Batana Oil",
+"Rosemary Oil Infused",
+"Nourishing Hair Care Formula"
+],
+
+"es":[
+"Aceite de Batana",
+"Enriquecido con aceite de romero",
+"Fórmula nutritiva para el cabello"
+],
+
+"ar":[
+"زيت باتانا",
+"مدعم بزيت إكليل الجبل",
+"تركيبة مغذية للعناية بالشعر"
+]
+
+},
+
+"image":"images/product4.jpg",
+
+"amazon":"https://www.amazon.com/Batana-Growth-Natural-Nourishes-Eliminates/dp/B0DYXRZLKB/ref=sr_1_3?th=1"
+
+},
+
+{
+"id":5,
+
+"name":{
+"en":"Batana Oil Hair Growth Bundle",
+"es":"Kit para el Crecimiento del Cabello con Aceite de Batana",
+"ar":"مجموعة زيت الباتانا لنمو الشعر"
+},
+
+"tag": null,
+
+"price":"$26.99",
+
+"description":{
+"en":"The perfect Batana Oil Hair Growth Duo to nourish the scalp, strengthen hair, and promote fuller, healthier-looking hair for all hair types.",
+"es":"El dúo perfecto de Aceite de Batana para nutrir el cuero cabelludo, fortalecer el cabello y favorecer un cabello más abundante y saludable para todo tipo de cabello.",
+"ar":"مجموعة مثالية بزيت الباتانا لتغذية فروة الرأس وتقوية الشعر وتعزيز مظهر شعر أكثر كثافة وصحة لجميع أنواع الشعر."
+},
+
+"features":{
+
+"en":[
+"Helps Nourish Scalp & Hair",
+"Helps Strengthen & Restore Shine",
+"Suitable for All Hair Types"
+],
+
+"es":[
+"Nutre el cuero cabelludo y el cabello",
+"Ayuda a fortalecer y restaurar el brillo",
+"Apto para todo tipo de cabello"
+],
+
+"ar":[
+"يغذي فروة الرأس والشعر",
+"يساعد على تقوية الشعر واستعادة لمعانه",
+"مناسب لجميع أنواع الشعر"
+]
+
+},
+
+"image":"images/product5.jpg",
+
+"amazon":"https://www.amazon.com/Bundle-100-Rosemary-Shampoo-Natural-Treatment-Healthier/dp/B0DY7DCC24"
+
+},
+
+{
+"id":6,
+
+"name":{
+"en":"Purifying Exfoliating Gel",
+"es":"Gel Exfoliante Purificante",
+"ar":"جل التقشير المنقي"
+},
+
+"tag": null,
+
+"price":"$7.99",
+
+"description":{
+"en":"A gentle exfoliating gel that helps remove dead skin and excess oil while leaving skin smoother, refreshed, and hydrated.",
+"es":"Gel exfoliante suave que ayuda a eliminar la piel muerta y el exceso de grasa, dejando la piel más suave, fresca e hidratada.",
+"ar":"جل تقشير لطيف يساعد على إزالة الجلد الميت والزيوت الزائدة ويترك البشرة أكثر نعومة وانتعاشًا وترطيبًا."
+},
+
+"features":{
+
+"en":[
+"Gentle Dead Skin Exfoliation",
+"Pore Cleansing & Hydrating Care",
+"Suitable for Face & Body"
+],
+
+"es":[
+"Exfoliación suave de la piel muerta",
+"Limpieza de poros e hidratación",
+"Apto para rostro y cuerpo"
+],
+
+"ar":[
+"تقشير لطيف للجلد الميت",
+"تنظيف المسام وترطيب البشرة",
+"مناسب للوجه والجسم"
+]
+
+},
+
+"image":"images/product6.jpg",
+
+"amazon":"https://www.amazon.com/Gypsophila-Purifying-Exfoliating-Cleansing-Removes/dp/B0F4KHDT25"
+
+},
+
+{
+"id":7,
+
+"name":{
+"en":"Fragrance Body Wash",
+"es":"Gel de Baño Perfumado",
+"ar":"غسول جسم معطر"
+},
+
+"tag": null,
+
+"price":"$15.99",
+
+"description":{
+"en":"A luxurious fragrance body wash with rich foam and hydrating ingredients to gently cleanse, soften, and leave skin delicately scented.",
+"es":"Gel de baño de lujo con abundante espuma e ingredientes hidratantes para limpiar suavemente, suavizar y dejar una delicada fragancia en la piel.",
+"ar":"غسول جسم فاخر برغوة غنية ومكونات مرطبة لتنظيف البشرة بلطف وتركها ناعمة ومعطرة."
+},
+
+"features":{
+
+"en":[
+"Long-Lasting Elegant Fragrance",
+"Hydrating Skin Care",
+"Gentle Rich Foam Cleanse"
+],
+
+"es":[
+"Fragancia elegante de larga duración",
+"Cuidado hidratante para la piel",
+"Limpieza suave con espuma abundante"
+],
+
+"ar":[
+"عطر أنيق يدوم طويلًا",
+"ترطيب وعناية بالبشرة",
+"تنظيف لطيف برغوة غنية"
+]
+
+},
+
+"image":"images/product7.jpg",
+
+"amazon":"https://www.amazon.com/Gypsophila-Fragrance-Moisturizing-Lasting-Phthalate/dp/B0FS5TS717"
+
+},
+
+{
+"id":8,
+
+"name":{
+"en":"Batana Oil Shampoo & Batana Hair Mask",
+"es":"Champú de Aceite de Batana y Mascarilla Capilar",
+"ar":"شامبو زيت الباتانا مع ماسك الشعر"
+},
+
+"tag": null,
+
+"price":"$28.99",
+
+"description":{
+"en":"Complete Batana hair care duo with shampoo and mask to help repair, moisturize, and restore soft, shiny-looking hair.",
+"es":"Dúo completo de cuidado capilar con champú y mascarilla de Batana para ayudar a reparar, hidratar y restaurar un cabello suave y brillante.",
+"ar":"مجموعة متكاملة للعناية بالشعر تضم شامبو وماسك بزيت الباتانا للمساعدة على إصلاح الشعر وترطيبه واستعادة نعومته ولمعانه."
+},
+
+"features":{
+
+"en":[
+"Batana Oil & Rosemary Nourishment",
+"Hydrating Hair Repair Care",
+"Sulfate-Free for All Hair Types"
+],
+
+"es":[
+"Nutrición con Aceite de Batana y Romero",
+"Cuidado reparador e hidratante",
+"Sin sulfatos para todo tipo de cabello"
+],
+
+"ar":[
+"تغذية بزيت الباتانا وإكليل الجبل",
+"إصلاح وترطيب الشعر",
+"خالٍ من الكبريتات لجميع أنواع الشعر"
+]
+
+},
+
+"image":"images/product8.jpg",
+
+"amazon":"https://www.amazon.com/Gypsophila-Batana-Shampoo-Hair-Mask/dp/B0F9PDMPL1"
+
+},
+  {
+    "id": 9,
+    "name": {
+      "en": "Batana Shampoo & Batana Oil & Hair Mask Combo Set",
+      "es": "Set de Champú, Aceite y Mascarilla de Batana",
+      "ar": "مجموعة شامبو وزيت وماسك الباتانا"
+    },
+    "tag": null,
+    "price": "$38.99",
+    "description": {
+      "en": "Gentle Batana Oil hair care set with natural ingredients to nourish, hydrate and repair dry, damaged hair.",
+      "es": "Set de cuidado capilar con aceite de Batana que ayuda a nutrir, hidratar y reparar el cabello seco y dañado.",
+      "ar": "مجموعة عناية بالشعر بزيت الباتانا تساعد على تغذية وترطيب وإصلاح الشعر الجاف والمتضرر."
+    },
+    "features": {
+      "en": [
+        "Natural Plant Formula",
+        "Deep Hair Repair",
+        "Batana & Rosemary Care"
+      ],
+      "es": [
+        "Fórmula Natural",
+        "Reparación Profunda",
+        "Batana y Romero"
+      ],
+      "ar": [
+        "تركيبة طبيعية",
+        "إصلاح عميق للشعر",
+        "العناية بالباتانا وإكليل الجبل"
+      ]
+    },
+    "image": "images/product9.jpg",
+    "amazon": "https://www.amazon.com/Batana-Shampoo-Oil-Hair-Mask-Combo/dp/B0F9PJ5N34"
+  },
+
+  {
+    "id": 10,
+    "name": {
+      "en": "Umex Nail Repair Serum",
+      "es": "Suero Reparador de Uñas Umex",
+      "ar": "سيروم أوميكس لإصلاح الأظافر"
+    },
+    "tag": null,
+    "price": "$12.99",
+    "description": {
+      "en": "Tea tree and ginger nail serum that nourishes and strengthens brittle nails.",
+      "es": "Suero para uñas con árbol de té y jengibre que fortalece y nutre las uñas frágiles.",
+      "ar": "سيروم بالأعشاب يساعد على تغذية وتقوية الأظافر الهشة."
+    },
+    "features": {
+      "en": [
+        "Nail Nourishment",
+        "Strengthens Nails",
+        "Tea Tree & Ginger"
+      ],
+      "es": [
+        "Nutrición para Uñas",
+        "Fortalece las Uñas",
+        "Árbol de Té y Jengibre"
+      ],
+      "ar": [
+        "تغذية الأظافر",
+        "تقوية الأظافر",
+        "زيت شجرة الشاي والزنجبيل"
+      ]
+    },
+    "image": "images/product10.jpg",
+    "amazon": "https://www.amazon.com/Jonider-Treatment-Cuticle-Ginger-Brittle/dp/B0GX539DLC"
+  },
+
+  {
+    "id": 11,
+    "name": {
+      "en": "Umex Soothing Massage Gel",
+      "es": "Gel de Masaje Calmante Umex",
+      "ar": "جل التدليك المهدئ أوميكس"
+    },
+    "tag": null,
+    "price": "$16.99",
+    "description": {
+      "en": "Fast-absorbing massage gel designed for everyday joint and muscle comfort.",
+      "es": "Gel de masaje de rápida absorción para el cuidado diario de músculos y articulaciones.",
+      "ar": "جل تدليك سريع الامتصاص للاستخدام اليومي."
+    },
+    "features": {
+      "en": [
+        "Plant Formula",
+        "Fast Absorption",
+        "Daily Care"
+      ],
+      "es": [
+        "Fórmula Vegetal",
+        "Absorción Rápida",
+        "Uso Diario"
+      ],
+      "ar": [
+        "تركيبة نباتية",
+        "سريع الامتصاص",
+        "للاستخدام اليومي"
+      ]
+    },
+    "image": "images/product11.jpg",
+    "amazon": "https://www.amazon.com/Jonider-Soothing-Relief-Massage-Soothes/dp/B0F6TLDG13"
+  },
+
+  {
+    "id": 12,
+    "name": {
+      "en": "2-Pack Tea Tree Foot Spray",
+      "es": "Spray para Pies Árbol de Té (2 Pack)",
+      "ar": "بخاخ القدمين بزيت شجرة الشاي (عبوتان)"
+    },
+    "tag": null,
+    "price": "$19.99",
+    "description": {
+      "en": "Refreshing tea tree foot spray with quick-drying formula.",
+      "es": "Spray refrescante para pies con árbol de té de secado rápido.",
+      "ar": "بخاخ منعش للقدمين سريع الجفاف بزيت شجرة الشاي."
+    },
+    "features": {
+      "en": [
+        "Tea Tree Oil",
+        "Quick Dry",
+        "Portable"
+      ],
+      "es": [
+        "Árbol de Té",
+        "Secado Rápido",
+        "Portátil"
+      ],
+      "ar": [
+        "زيت شجرة الشاي",
+        "سريع الجفاف",
+        "سهل الحمل"
+      ]
+    },
+    "image": "images/product12.jpg",
+    "amazon": "https://www.amazon.com/2PCS-Spray-Freshness-Quick-Drying-Travel/dp/B0H3K4BNG8"
+  },
+
+  {
+    "id": 13,
+    "name": {
+      "en": "Nail Repair Serum",
+      "es": "Suero Reparador para Uñas",
+      "ar": "سيروم إصلاح الأظافر"
+    },
+    "tag": null,
+    "price": "$9.99",
+    "description": {
+      "en": "Daily ginger nail serum that nourishes and improves brittle nails.",
+      "es": "Suero diario con jengibre que nutre y fortalece las uñas.",
+      "ar": "سيروم يومي بالزنجبيل لتغذية وتقوية الأظافر."
+    },
+    "features": {
+      "en": [
+        "Nail Care",
+        "Strengthening",
+        "Daily Use"
+      ],
+      "es": [
+        "Cuidado de Uñas",
+        "Fortalecimiento",
+        "Uso Diario"
+      ],
+      "ar": [
+        "العناية بالأظافر",
+        "تقوية الأظافر",
+        "استخدام يومي"
+      ]
+    },
+    "image": "images/product13.jpg",
+    "amazon": "https://www.amazon.com/Treatment-Cuticle-Ginger-Repair-Brittle/dp/B0F29JT4RB"
+  },
+
+  {
+    "id": 14,
+    "name": {
+      "en": "Umex Soothing Joint Patches",
+      "es": "Parches Calmantes Umex",
+      "ar": "لصقات أوميكس المهدئة"
+    },
+    "tag": null,
+    "price": "$19.99",
+    "description": {
+      "en": "Natural botanical patches for daily comfort.",
+      "es": "Parches botánicos para el cuidado diario.",
+      "ar": "لصقات عشبية طبيعية للاستخدام اليومي."
+    },
+    "features": {
+      "en": [
+        "Herbal Formula",
+        "Breathable",
+        "Easy to Apply"
+      ],
+      "es": [
+        "Fórmula Herbal",
+        "Transpirable",
+        "Fácil de Usar"
+      ],
+      "ar": [
+        "تركيبة عشبية",
+        "قابلة للتهوية",
+        "سهلة الاستخدام"
+      ]
+    },
+    "image": "images/product14.jpg",
+    "amazon": "https://www.amazon.com/Jonider-Natural-Soothing-Strips-Patches/dp/B0H6SP5M7L"
+  },
+
+  {
+    "id": 15,
+    "name": {
+      "en": "Umex Natural Soothing Joint Patches (16PCS)",
+      "es": "Parches Calmantes Umex (16 Piezas)",
+      "ar": "لصقات أوميكس الطبيعية (16 قطعة)"
+    },
+    "tag": null,
+    "price": "$35.99",
+    "description": {
+      "en": "16-piece botanical patch set for everyday comfort.",
+      "es": "Juego de 16 parches botánicos para uso diario.",
+      "ar": "مجموعة من 16 لصقة عشبية للاستخدام اليومي."
+    },
+    "features": {
+      "en": [
+        "Natural Herbs",
+        "Comfortable",
+        "16 Pieces"
+      ],
+      "es": [
+        "Hierbas Naturales",
+        "Cómodo",
+        "16 Piezas"
+      ],
+      "ar": [
+        "أعشاب طبيعية",
+        "مريح",
+        "16 قطعة"
+      ]
+    },
+    "image": "images/product15.jpg",
+    "amazon": "https://www.amazon.com/Jonider-Natural-Soothing-Strips-Patches/dp/B0H6SFMRPZ"
+  },
+
+  {
+    "id": 16,
+    "name": {
+      "en": "Cyperus Rotundus Hair Removal Cream",
+      "es": "Crema Depilatoria Cyperus Rotundus",
+      "ar": "كريم إزالة الشعر Cyperus Rotundus"
+    },
+    "tag": null,
+    "price": "$19.99",
+    "description": {
+      "en": "Gentle hair removal cream that leaves skin soft and smooth.",
+      "es": "Crema depilatoria suave que deja la piel lisa e hidratada.",
+      "ar": "كريم إزالة شعر لطيف يترك البشرة ناعمة وملساء."
+    },
+    "features": {
+      "en": [
+        "Gentle Hair Removal",
+        "Moisturizing",
+        "Multi-Area Use"
+      ],
+      "es": [
+        "Depilación Suave",
+        "Hidratante",
+        "Uso Corporal"
+      ],
+      "ar": [
+        "إزالة شعر لطيفة",
+        "ترطيب البشرة",
+        "مناسب لمناطق متعددة"
+      ]
+    },
+    "image": "images/product16.jpg",
+    "amazon": "https://www.amazon.com/AgeVance-Rotundus-Moisturizer-Effective-Underarms/dp/B0GV264BKS"
+  }
+
+]
+
